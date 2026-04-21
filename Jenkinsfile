@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/pradeep08/repo.git'
+                git 'git@github.com:08pradeep/CI-CD-Pipeline-Automation-Project.git'
             }
         }
 
